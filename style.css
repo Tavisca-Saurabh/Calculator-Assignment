@@ -1,0 +1,93 @@
+body {
+    background-color: #2a2a2a;
+}
+
+.box {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: 200px;
+    left: 40%;
+    border: 2px solid #fff;
+}
+
+.heading {
+    color: white;
+    margin-left: 40%;
+    font-size: 40pt;
+}
+
+.display input {
+    position: relative;
+    left: 15px;
+    top: 10px;
+    height: 35px;
+    color: black;
+    background-color: #fff;
+    font-size: 21px;
+    text-align: right;
+    width: 220px;
+}
+
+.keys {
+    padding-top: 5%;
+}
+
+.button {
+    width: 42px;
+    height: 30px;
+    border: none;
+    margin-left: 17px;
+    border-top: 2px solid transparent;
+}
+
+.reload-image {
+    height: 10%;
+    width: 10%;
+    padding-left: 7%;
+}
+.reload-image-bottom{
+    height: 2%;
+    width: 2%;
+}
+footer > p {
+    padding-top: 20%;
+    color: #fff;
+    padding-left: 36%;
+}
+
+.button.gray {
+    color: white;
+    background-color: #708090;
+    width: 47%;
+}
+
+.button.pink {
+    color: black;
+    background-color: #ff4561;
+}
+
+.button.black {
+    color: black;
+    background-color: 303030;
+}
+
+
+.gray:active {
+    border-top: black 2px solid;
+    border-bottom: 2px #6f6f6f solid;
+}
+
+.pink:active {
+    border-top: black 2px solid;
+    border-bottom: #ff4561 2px solid;
+}
+
+.black:active {
+    border-top: black 2px solid;
+    border-bottom: #303030 2px solid;
+}
+
+p {
+    line-height: 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CALCULATOR</title>
+        <meta name="description" content="Calculator">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <h2 class="heading">Calculator</h2>
+        </header>
+        <main>
+    <div class="box">
+        <div class="display">
+            <input type="text" size="18" pattern= "[0-9]"  id="display" onkeypress="javascript:Enter(event);" autofocus>
+        </div>
+        <div class="keys">
+            <p>
+                <input type="button" class="button gray" value="History" onclick='GetHistory()'><img src="reload.png" class="reload-image" onclick="Reload()"><input type="button" class="button pink" value="/" onclick='GetValue("/")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="7" onclick='GetValue("7")'><input type="button" class="button black" value="8" onclick='GetValue("8")'><input type="button" class="button black" value="9" onclick='GetValue("9")'><input
+                    type="button" class="button pink" value="*" onclick='v("*")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="4" onclick='GetValue("4")'><input type="button" class="button black" value="5" onclick='GetValue("5")'><input type="button" class="button black" value="6" onclick='GetValue("6")'><input
+                    type="button" class="button pink" value="-" onclick='GetValue("-")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="1" onclick='GetValue("1")'><input type="button" class="button black" value="2" onclick='GetValue("2")'><input type="button" class="button black" value="3" onclick='    v("3")'><input
+                    type="button" class="button pink" value="+" onclick='GetValue("+")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="0" onclick='GetValue("0")'><input type="button" class="button black" value="." onclick='GetValue(".")'><input type="button" class="button black" value="C" onclick='ShowData("")'><input
+                    type="button" class="button orange" value="=" onclick='EqualKey()'>
+            </p>
+        </div>
+    </div>
+        </main>
+        <footer>
+        <p>Note: To Get Updated History. please press <img src="reload.png" class="reload-image-bottom" onclick="Reload()"> reload image </p></footer>
+        <script type="text/javascript" src="Calculator.js"></script>
+    </body>
+</html>
